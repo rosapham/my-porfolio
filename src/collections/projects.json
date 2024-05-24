@@ -10,5 +10,11 @@
 		"description": "Building my portfolio website by using Astro.js with Aria template.",
 		"image": "/assets/images/projects/portfolio.png",
 		"url": "https://github.com/dinhlang86/my-porfolio"
+	},
+  {
+		"name": "E-commerce Backend API",
+		"description": "Building a RESTful API for e-commerce system using Python FastAPI, SQLModel, SQL Alchemy, Alembic and Postgres DB.",
+		"image": "/assets/images/projects/ecommerce.jpeg",
+		"url": "https://github.com/dinhlang86/ecommerce"
 	}
 ]

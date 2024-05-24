@@ -1,23 +1,37 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "October 2022 · September 2023",
+		"role": "Data Science Research Assistant",
+		"company": "Ehrenberg-Bass Institute - The University of South Australia",
+		"description": "Responsible for extracting and storing data in Snowflake using Python, performing extensive data cleaning and optimization, developing a user-friendly chatbot with Python and React, and creating an interactive application for consumer buying behavior analysis using Streamlit.",
+		"logo": "/assets/images/experiences/unisa.png"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"dates": "June 2012 · September 2016",
+		"role": "Freelance Mobile Developer",
+		"company": "Freelancer",
+		"description": "Developing and publishing Android applications on Google Play Store.",
+		"logo": "/assets/images/experiences/android.png"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "November 2011 · May 2012",
+		"role": "Java Developer",
+		"company": "Formos Vietnam Co, Ltd",
+		"description": "Analyzed user requirements and developed a smartphone 'Mapping' application using Java, ensuring proper performance through testing, debugging, and maintenance.",
+		"logo": "/assets/images/experiences/formos.png"
+	},
+  {
+		"dates": "February 2011 · October 2011",
+		"role": "Software Engineer",
+		"company": "ITFarm INC",
+		"description": "Led the development of a medicine management system for Oslo's health sector in Norway, utilizing JSF, Seam, EJB3, and mySQL, while ensuring its reliability through rigorous testing, debugging, and ongoing maintenance.",
+		"logo": "/assets/images/experiences/itfarm.png"
+	},
+  {
+		"dates": "July 2008 · August 2010",
+		"role": "Software Engineer",
+		"company": "Aureole Information Technology INC",
+		"description": "Developed sales management systems for Houken Corp with ASP.NET 2.0, VB.NET, and Oracle, management systems for Nikko Corp utilizing Struts, JSP, and Hibernate, and an appointment/dismissal system for Energia Communications' EE-Box project using Struts, JSP, and Oracle. Conducted thorough testing, debugging, and maintenance of all systems.",
+		"logo": "/assets/images/experiences/itfarm.png"
 	}
 ]

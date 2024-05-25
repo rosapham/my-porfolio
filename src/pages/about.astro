@@ -1,7 +1,7 @@
 ---
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
-import MyExperiences from "../components/my-experiences.astro";
+import Education from "../components/education.astro";
 ---
 
 <Layout title="About Me">
@@ -12,13 +12,17 @@ import MyExperiences from "../components/my-experiences.astro";
     />
 
     <img src="/assets/images/about.png" class="relative z-30 w-full my-10 rounded-xl" />
-
+    <!--Bio -->
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
       Data analysis 📊, data engineering ⚙️, back-end development 👩🏻‍💻.
     </p>
+
+    <h2 class="mt-5 mb-2 text-2xl font-bold dark:text-neutral-200">Education</h2>
+    <Education />
+    <!--Skills -->
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
@@ -40,7 +44,7 @@ import MyExperiences from "../components/my-experiences.astro";
     </p>
 
     <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
-    
+    <!--Contact -->
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >

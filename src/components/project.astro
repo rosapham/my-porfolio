@@ -1,5 +1,5 @@
 ---
-const { name, description, url, image } = Astro.props;
+const { name, description, url, image, techStacks } = Astro.props;
 ---
 
 <a
@@ -60,6 +60,18 @@ const { name, description, url, image } = Astro.props;
       <span class="text-sm text-neutral-600 dark:text-neutral-400"
         >{description}</span
       >
+      
     </span>
+    <div class="flex flex-wrap">
+      {
+        techStacks.map((tech: string) => {
+          return (<span class="inline-flex items-center rounded-md bg-purple-50 px-2 py-1 mx-1 my-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+            {tech}
+          </span>
+              )
+        })
+      }
+    </div>
+    
   </span>
 </a>

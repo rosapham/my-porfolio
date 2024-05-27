@@ -14,6 +14,13 @@
     "techStacks": ["Python", "Jupyter notebook", "ML", "PySpark", "Pandas", "Numpy", "Scikit-learn", "Seaborn", "Matplotlib"]
 	},
   {
+		"name": "Programming Languages Trends Analysis",
+		"description": "Analysing the trends of programming languages based on the data from Stack Overflow. Understanding the popularity of programming languages to help developers make better decisions.",
+		"image": "/assets/images/projects/programming-languages.png",
+		"url": "https://github.com/dinhlang86/programming-languages-analysis",
+    "techStacks": ["R", "Python", "Tableau"]
+	},
+  {
 		"name": "E-commerce Backend API",
 		"description": "Building a RESTful API for e-commerce system using Python FastAPI.",
 		"image": "/assets/images/projects/ecommerce.jpeg",

@@ -1,4 +1,14 @@
 [
+  {
+		"name": "Domino's Pizza Sales",
+		"description": "Analysing Domino's Pizza sales data to understand the sales trend and customer behaviour. The analysis helps the company to make better decisions in marketing and sales strategies.",
+		"image": "/assets/images/projects/pizza_sales.png",
+		"url": "https://github.com/dinhlang86/pizza-analysis",
+    "techStacks": ["Power BI"],
+    "button": "Live Dashboard",
+    "buttonUrl": "https://app.powerbi.com/view?r=eyJrIjoiMTQ3ZmM5NGEtYTQ5ZC00NmQwLWE0MWMtZGE1MmFmZjQzMmM2IiwidCI6Ijg1NzQ0OTQ5LTgyNzctNDBmOS05ZDAyLTAyOTZiNjI0YjhjOCJ9"
+
+	},
 	{
 		"name": "SpaceX",
 		"description": "Final capstone project for IBM Professional Certificate in Data Science.",

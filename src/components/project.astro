@@ -1,5 +1,5 @@
 ---
-const { name, description, url, image, techStacks } = Astro.props;
+const { name, description, url, image, techStacks, buttonLabel, buttonUrl } = Astro.props;
 ---
 
 <a
@@ -58,7 +58,8 @@ const { name, description, url, image, techStacks } = Astro.props;
         >
       </span>
       <span class="text-sm text-neutral-600 dark:text-neutral-400"
-        >{description}</span
+        >{description} 
+      </span
       >
       
     </span>
@@ -72,6 +73,5 @@ const { name, description, url, image, techStacks } = Astro.props;
         })
       }
     </div>
-    
   </span>
 </a>

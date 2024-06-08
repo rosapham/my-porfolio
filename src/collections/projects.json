@@ -1,5 +1,14 @@
 [
   {
+		"name": "Fibit",
+		"description": "Analysing Fibit data to understand user's activity and sleep patterns, and provide recommendations to improve their health and fitness levels.",
+		"image": "/assets/images/projects/fitbit.png",
+		"url": "https://github.com/dinhlang86/fitbit-analysis",
+    "techStacks": ["Power BI"],
+    "button": "Live Dashboard",
+    "buttonUrl": "https://app.powerbi.com/view?r=eyJrIjoiNTE1ZjNkZWMtZmNkMi00ZDEyLTgwODEtNTE5ZGUxNTZkYzcyIiwidCI6Ijg1NzQ0OTQ5LTgyNzctNDBmOS05ZDAyLTAyOTZiNjI0YjhjOCJ9"
+	},
+  {
 		"name": "Domino's Pizza Sales",
 		"description": "Analysing Domino's Pizza sales data to understand the sales trend and customer behaviour. The analysis helps the company to make better decisions in marketing and sales strategies.",
 		"image": "/assets/images/projects/pizza_sales.png",
@@ -7,7 +16,6 @@
     "techStacks": ["Power BI"],
     "button": "Live Dashboard",
     "buttonUrl": "https://app.powerbi.com/view?r=eyJrIjoiMTQ3ZmM5NGEtYTQ5ZC00NmQwLWE0MWMtZGE1MmFmZjQzMmM2IiwidCI6Ijg1NzQ0OTQ5LTgyNzctNDBmOS05ZDAyLTAyOTZiNjI0YjhjOCJ9"
-
 	},
 	{
 		"name": "SpaceX",

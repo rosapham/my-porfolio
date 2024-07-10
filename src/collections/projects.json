@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Japan Visa Applications Analysis",
+		"description": "Applying PySpark and Plotly for processing data and visualisation the trends of Japan visa applications. Spark clusters are configured within a Docker container on Azure.",
+		"image": "/assets/images/projects/system_architecture.png",
+		"url": "https://github.com/dinhlang86/spark-cluster",
+    "techStacks": ["Azure", "Docker", "PySpark", "Python", "Plotly", "pycountry-convert", "fuzzywuzzy", "python-Levenshtein"]
+	},
+	{
 		"name": "Queensland Traffic Crash",
 		"description": "Analysing traffic crash data in Queensland to understand the trends and patterns of traffic crashes. The analysis helps the government to make better decisions in road safety and traffic management.",
 		"image": "/assets/images/projects/crash-analysis.png",

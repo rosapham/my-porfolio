@@ -1,16 +1,51 @@
 [
 	{
+		"name": "New York City Payroll Analysis",
+		"description": "Developing high-quality data pipelines that are dynamic, automated, and easily monitored for optimal performance for the City's financial resources.",
+		"image": "/assets/images/projects/nyc_project.png",
+		"url": "https://github.com/rosapham/NYC-payroll-analysis",
+    "techStacks": ["Azure Data Lake Storage Gen2", "Azure Data Factory", "Azure SQL Database", "Azure Synapse Analytics"]
+	},
+	{
+		"name": "Data Engineering using Azure Cloud, Databricks and dbt",
+		"description": "Building a scalable, robust and efficient data pipeline using Azure Cloud services, Databricks, and dbt, structured around Medallion Architecture that transforms raw data into valuable insights.",
+		"image": "/assets/images/projects/medallion_architecture.png",
+		"url": "https://github.com/rosapham/medallion-dbt",
+    "techStacks": ["Azure Data Lake Storage Gen2", "Azure Data Factory", "Azure SQL Database", "Azure Databricks", "Azure Key Vaults", "dbt", "Python", "PySpark"]
+	},
+	{
+		"name": "Sparkify Analysis",
+		"description": "Developing robust data pipelines using Apache Airflow and Amazon Redshift, focusing on dynamic, reusable tasks with easy monitoring and backfilling, while prioritizing data quality through post-ETL tests to detect discrepancies.",
+		"image": "/assets/images/projects/sparkify_project.png",
+		"url": "https://github.com/rosapham/aws-airflow-sparkify-analysis",
+    "techStacks": ["Amazon S3", "Amazon Redshift", "Apache Airflow", "Docker", "PostgresSQL", "Python"]
+	},
+	{
+		"name": "STEDI Human Balance Analysis",
+		"description": "Extracting data produced by STEDI Step Trainer sensors and the mobile app, curating them into the data lakehouse solution on AWS. The data is used to train a machine learning model to detect steps accurately in real-time.",
+		"image": "/assets/images/projects/stedi_project.png",
+		"url": "https://github.com/rosapham/aws-stedi-human-balance-analysis",
+    "techStacks": ["Amazon S3", "Amazon Glue", "Amazon Athena", "Python", "PySpark"]
+	},
+	{
+		"name": "Divvy Bike Share Analysis",
+		"description": "Developing a data lake solution using Azure Databricks and a lake house architecture to analyse the bike-share system in Chicago, USA.",
+		"image": "/assets/images/projects/divvy_project.png",
+		"url": "https://github.com/rosapham/divvy-bike-share-analysis",
+    "techStacks": ["Azure Data Lake Storage Gen2", "Azure Databricks", "PySpark"]
+	},
+	{
 		"name": "Japan Visa Applications Analysis",
 		"description": "Applying PySpark and Plotly for processing data and visualisation the trends of Japan visa applications. Spark clusters are configured within a Docker container on Azure.",
-		"image": "/assets/images/projects/system_architecture.png",
-		"url": "https://github.com/dinhlang86/spark-cluster",
+		"image": "/assets/images/projects/japan_project.png",
+		"url": "https://github.com/rosapham/japan-visa-analysis",
     "techStacks": ["Azure", "Docker", "PySpark", "Python", "Plotly", "pycountry-convert", "fuzzywuzzy", "python-Levenshtein"]
 	},
 	{
 		"name": "Queensland Traffic Crash",
 		"description": "Analysing traffic crash data in Queensland to understand the trends and patterns of traffic crashes. The analysis helps the government to make better decisions in road safety and traffic management.",
 		"image": "/assets/images/projects/crash-analysis.png",
-		"url": "https://github.com/dinhlang86/traffic-crash-analysis",
+		"url": "https://github.com/rosapham/traffic-crash-analysis",
     "techStacks": ["Tableau"],
     "button": "Live Dashboard",
     "buttonUrl": "https://public.tableau.com/views/crash_queensland/Overview?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
@@ -19,7 +54,7 @@
 		"name": "Fibit",
 		"description": "Analysing Fibit data to understand user's activity and sleep patterns, and provide recommendations to improve their health and fitness levels.",
 		"image": "/assets/images/projects/fitbit.png",
-		"url": "https://github.com/dinhlang86/fitbit-analysis",
+		"url": "https://github.com/rosapham/fitbit-analysis",
     "techStacks": ["Power BI"],
     "button": "Live Dashboard",
     "buttonUrl": "https://app.powerbi.com/view?r=eyJrIjoiNTE1ZjNkZWMtZmNkMi00ZDEyLTgwODEtNTE5ZGUxNTZkYzcyIiwidCI6Ijg1NzQ0OTQ5LTgyNzctNDBmOS05ZDAyLTAyOTZiNjI0YjhjOCJ9"
@@ -28,7 +63,7 @@
 		"name": "Domino's Pizza Sales",
 		"description": "Analysing Domino's Pizza sales data to understand the sales trend and customer behaviour. The analysis helps the company to make better decisions in marketing and sales strategies.",
 		"image": "/assets/images/projects/pizza_sales.png",
-		"url": "https://github.com/dinhlang86/pizza-analysis",
+		"url": "https://github.com/rosapham/pizza-analysis",
     "techStacks": ["Power BI"],
     "button": "Live Dashboard",
     "buttonUrl": "https://app.powerbi.com/view?r=eyJrIjoiMTQ3ZmM5NGEtYTQ5ZC00NmQwLWE0MWMtZGE1MmFmZjQzMmM2IiwidCI6Ijg1NzQ0OTQ5LTgyNzctNDBmOS05ZDAyLTAyOTZiNjI0YjhjOCJ9"
@@ -37,35 +72,35 @@
 		"name": "SpaceX",
 		"description": "Final capstone project for IBM Professional Certificate in Data Science.",
 		"image": "/assets/images/projects/spacex.png",
-		"url": "https://github.com/dinhlang86/space-x",
+		"url": "https://github.com/rosapham/space-x",
     "techStacks": ["Python", "Jupyter notebook", "ML", "Pandas", "Numpy", "Scikit-learn", "Dash", "Plotly", "Seaborn", "Matplotlib", "SQLite"]
 	},
   {
 		"name": "Titanic Survival Prediction",
 		"description": "Applying PySpark and machine learning algorithms to predict the survival of passengers on the Titanic.",
 		"image": "/assets/images/projects/titanic.png",
-		"url": "https://github.com/dinhlang86/Titanic",
+		"url": "https://github.com/rosapham/Titanic",
     "techStacks": ["Python", "Jupyter notebook", "ML", "PySpark", "Pandas", "Numpy", "Scikit-learn", "Seaborn", "Matplotlib"]
 	},
   {
 		"name": "Programming Languages Trends Analysis",
 		"description": "Analysing the trends of programming languages based on the data from Stack Overflow. Understanding the popularity of programming languages to help developers make better decisions.",
 		"image": "/assets/images/projects/programming-languages.png",
-		"url": "https://github.com/dinhlang86/programming-languages-analysis",
+		"url": "https://github.com/rosapham/programming-languages-analysis",
     "techStacks": ["R", "Python", "Tableau"]
 	},
   {
 		"name": "E-commerce Backend API",
 		"description": "Building a RESTful API for e-commerce system using Python FastAPI.",
 		"image": "/assets/images/projects/ecommerce.jpeg",
-		"url": "https://github.com/dinhlang86/ecommerce",
+		"url": "https://github.com/rosapham/ecommerce",
     "techStacks": ["Python", "FastAPI", "SQLModel", "SQL Alchemy", "Alembic", "PostgresSQL", "Pytest"]
 	},
   {
 		"name": "My Portfolio",
 		"description": "Building my portfolio website by using Astro.js with Aria template.",
 		"image": "/assets/images/projects/portfolio.png",
-		"url": "https://github.com/dinhlang86/my-porfolio",
+		"url": "https://github.com/rosapham/my-porfolio",
     "techStacks": ["Astro.js", "React", "Typescript" , "Tailwind CSS"]
 	}
 ]

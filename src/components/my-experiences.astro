@@ -8,7 +8,7 @@ import MyExperience from "../components/my-experience.astro";
     experiences.map((experience, loop) => {
       return (
         <>
-          {loop <= 3 ? (
+          {loop < 1 ? (
             <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
               <MyExperience
                 dates={experience.dates}
@@ -16,6 +16,7 @@ import MyExperience from "../components/my-experience.astro";
                 company={experience.company}
                 descriptions={experience.descriptions}
                 logo={experience.logo}
+                tech_skills={experience.tech_skills}
               />
             </div>
           ) : (
@@ -25,6 +26,7 @@ import MyExperience from "../components/my-experience.astro";
               company={experience.company}
               descriptions={experience.descriptions}
               logo={experience.logo}
+              tech_skills={experience.tech_skills}
             />
           )}
         </>

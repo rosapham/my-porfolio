@@ -3,14 +3,25 @@
 		"dates": "October 2023 · Current",
 		"role": "Data Engineer",
 		"company": "PTE Master",
-		"descriptions": [""],
-		"logo": "/assets/images/experiences/pte_master.png"
+		"descriptions": ["    Designed and implemented automated ETL pipelines using Apache Airflow, managing data wrangling, orchestration, migration, and loading into Azure Data Lake Storage Gen2 from trusted educational sources, reducing manual processing time and ensuring high data quality.", 
+                    "    Developed ELT pipelines using Azure Data Factory and Azure Databricks within a Lakehouse architecture, enhancing data consistency and integrity, achieving significant reductions in data processing times and improved accuracy of analytical outcome.",
+                    "    Optimised PostgreSQL and Cassandra databases, utilising advanced indexing and query fine-tuning techniques, improving query performance by 20%, while ensuring high availability and fault tolerance in Cassandra clusters.",
+                    "    Transformed data using dbt CLI to meet business requirements, employing SQL for data modeling and schema design, leading to significant time savings in documentation and data model creation.",
+                    "    Built a Data Analytics platform on Azure Synapse Analytics, leveraging SQL to analyse and meet business requirements, providing actionable insights and strategic decision-making.",
+                    "    Implemented Cloud Infrastructure as Code using Docker, ensuring optimal uptime and compliance with best practices for multiple commercial applications.",
+                    "    Established CI/CD workflows using GitHub Actions, maintaining version control for source code, enhancing team collaboration on commercial projects."],
+		"logo": "/assets/images/experiences/pte_master.png",
+    "tech_skills": ["Azure Data Lake Storage Gen2", "Azure Data Factory", "Azure Databricks", "Azure Synapse Analytics", "Apache Airflow", "Spark", "dbt", "PostgreSQL", "Cassandra", "Python", "SQL", "Docker", "GitHub"]
 	},
 	{
 		"dates": "October 2022 · September 2023",
 		"role": "Data Science Research Assistant",
 		"company": "Ehrenberg-Bass Institute - The University of South Australia",
-		"descriptions": ["Responsible for extracting and storing data in Snowflake using Python, <br/>performing extensive data cleaning and optimization, developing a user-friendly chatbot with Python and React, and creating an interactive application for consumer buying behavior analysis using Streamlit.", "Test", "Test2"],
-		"logo": "/assets/images/experiences/unisa.png"
+		"descriptions": ["    Extracted data based on specific patterns using Python and efficiently stored the processed data in Snowflake, ensuring seamless integration and accessibility for downstream processes.", 
+                    "     Performed extensive data cleaning using Python, including resolving missing values, rectifying misspellings, and ensuring data consistency, which optimised data quality and increased accuracy, directly supporting reliable analytics and reporting.",
+                    "     Developed an interactive application using Streamlit focused on the ‘NBD-Dirichlet Model of Consumer Buying Behaviour’, improving understanding and accessibility for business and research teams.", 
+                    "     Built a user-friendly chatbot for the Institute’s website using Python, leveraging Azure OpenAI and Azure Cognitive Search to enhance user experience and information retrieval."],
+		"logo": "/assets/images/experiences/ehrenberg_bass.png",
+    "tech_skills": ["Azure OpenAI", "Azure Cognitive Search", "Python", "SQL", "Snowflake", "Streamlit", "GitHub"]
 	}
 ]

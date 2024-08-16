@@ -8,8 +8,8 @@ import MyExperience from "../components/my-experience.astro";
     experiences.map((experience, loop) => {
       return (
         <>
-          {loop < 1 ? (
-            <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+          {loop <= 1 ? (
+            <div class="pb-10">
               <MyExperience
                 dates={experience.dates}
                 role={experience.role}

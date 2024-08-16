@@ -4,12 +4,12 @@
 		"url": "/"
 	},
   {
-		"name": "About",
-		"url": "/about"
+		"name": "Experiences",
+		"url": "/experience"
 	},
   {
-		"name": "Experience",
-		"url": "/experience"
+		"name": "Education",
+		"url": "/education"
 	},
 	{
 		"name": "Projects",

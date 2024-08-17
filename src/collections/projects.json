@@ -95,12 +95,5 @@
 		"image": "/assets/images/projects/ecommerce.jpeg",
 		"url": "https://github.com/rosapham/ecommerce",
     "techStacks": ["Python", "FastAPI", "SQLModel", "SQL Alchemy", "Alembic", "PostgresSQL", "Pytest"]
-	},
-  {
-		"name": "My Portfolio",
-		"description": "Building my portfolio website by using Astro.js with Aria template.",
-		"image": "/assets/images/projects/portfolio.png",
-		"url": "https://github.com/rosapham/my-porfolio",
-    "techStacks": ["Astro.js", "React", "Typescript" , "Tailwind CSS"]
 	}
 ]

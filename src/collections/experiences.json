@@ -8,8 +8,7 @@
                     "    Optimised PostgreSQL and Cassandra databases, utilising advanced indexing and query fine-tuning techniques, improving query performance by 20%, while ensuring high availability and fault tolerance in Cassandra clusters.",
                     "    Transformed data using dbt CLI to meet business requirements, employing SQL for data modeling and schema design, leading to significant time savings in documentation and data model creation.",
                     "    Built a Data Analytics platform on Azure Synapse Analytics, leveraging SQL to analyse and meet business requirements, providing actionable insights and strategic decision-making.",
-                    "    Implemented Cloud Infrastructure as Code using Docker, ensuring optimal uptime and compliance with best practices for multiple commercial applications.",
-                    "    Established CI/CD workflows using GitHub Actions, maintaining version control for source code, enhancing team collaboration on commercial projects."],
+                    "    Implemented Cloud Infrastructure as Code using Docker, ensuring optimal uptime and compliance with best practices for multiple commercial applications."],
 		"logo": "/assets/images/experiences/pte_master.png",
     "tech_skills": ["Azure Data Lake Storage Gen2", "Azure Data Factory", "Azure Databricks", "Azure Synapse Analytics", "Apache Airflow", "Spark", "dbt", "PostgreSQL", "Cassandra", "Python", "SQL", "Docker", "GitHub"]
 	},

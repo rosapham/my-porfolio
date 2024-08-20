@@ -12,6 +12,7 @@ import MyExperience from "../components/my-experience.astro";
             <div class="pb-10">
               <MyExperience
                 dates={experience.dates}
+                location={experience.location}
                 role={experience.role}
                 company={experience.company}
                 descriptions={experience.descriptions}
@@ -22,6 +23,7 @@ import MyExperience from "../components/my-experience.astro";
           ) : (
             <MyExperience
               dates={experience.dates}
+              location={experience.location}
               role={experience.role}
               company={experience.company}
               descriptions={experience.descriptions}

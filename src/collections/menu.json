@@ -8,6 +8,10 @@
 		"url": "/experience"
 	},
   {
+		"name": "Skills",
+		"url": "/skills"
+	},
+  {
 		"name": "Education",
 		"url": "/education"
 	},

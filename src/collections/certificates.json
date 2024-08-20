@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Data Engineering with AWS",
+    "issuer": "Udacity",
+    "issueDate": "August 2024",
+		"issuerLogo": "/assets/images/certs/udacity.png",
+		"url": "https://www.udacity.com/certificate/e/b41735d0-4f98-11ef-96c6-1fb1976f5e40"
+	},
+  {
+		"name": "Data Engineering with Microsoft Azure",
+    "issuer": "Udacity",
+    "issueDate": "July 2024",
+		"issuerLogo": "/assets/images/certs/udacity.png",
+		"url": "https://www.udacity.com/certificate/e/46d390ee-43fa-11ef-acfe-4b3c291046fb"
+	},
+  {
+		"name": "Microsoft Certified: Power BI Data Analyst Associate",
+    "issuer": "Microsoft",
+    "issueDate": "April 2023",
+		"issuerLogo": "/assets/images/certs/microsoft.png",
+		"url": "https://www.credly.com/badges/28271313-2d10-41cb-a3fa-f8ba87f9e292"
+	},
+  {
+		"name": "Microsoft Certified: Azure Data Fundamentals",
+    "issuer": "Microsoft",
+    "issueDate": "March 2023",
+		"issuerLogo": "/assets/images/certs/microsoft.png",
+		"url": "https://www.credly.com/badges/d43bdba7-84d4-400d-b7e8-66009b2f8f83"
+	},
+  {
+		"name": "Professional IBM Data Science",
+    "issuer": "IBM",
+    "issueDate": "June 2022",
+		"issuerLogo": "/assets/images/certs/ibm.png",
+		"url": "https://www.coursera.org/account/accomplishments/professional-cert/HDNXNVX9EXLN"
+	}
+]

@@ -1,5 +1,5 @@
 ---
-const { logo, dates, role, company, descriptions, tech_skills } = Astro.props;
+const { logo, dates, role, company, descriptions, tech_skills, location } = Astro.props;
 ---
 
 <div class="relative flex flex-col justify-start pl-12">
@@ -9,22 +9,23 @@ const { logo, dates, role, company, descriptions, tech_skills } = Astro.props;
     <img src={logo} alt={company} class="w-10 h-10" />
   </div>
 
-  <p
-    class="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest"
-  >
-    {dates}
-  </p>
-  <h3 class="my-1 text-lg font-bold dark:text-neutral-100">{company}</h3>
-  <p class="mb-1 text-md font-medium dark:text-neutral-300">{role}</p>
-    <ul>
-    {descriptions.map((description: string) => {
-      return <li>
-        <p class="mb-2 text-base text-neutral-600 dark:text-neutral-400">
-         {description}
-        </p>
-      </li>
-    })}
-    </ul>
+  <div class="flex flex-row my-1">
+    <h3 class=" text-lg font-bold dark:text-neutral-100">{company}</h3>
+    <p class="ml-auto dark:text-neutral-300 trackign-widest">{location}</p>
+  </div>
+  <div class="flex flex-row mb-1">
+    <p class="text-md font-medium dark:text-neutral-300">{role}</p>
+    <p class="ml-auto italic dark:text-neutral-300 trackign-widest">{dates}</p>
+  </div>
+  <ul>
+  {descriptions.map((description: string) => {
+    return <li>
+      <p class="mb-2 text-base text-neutral-600 dark:text-neutral-400">
+        {description}
+      </p>
+    </li>
+  })}
+  </ul>
   <div class="flex flex-wrap mt-2">
     {tech_skills.map((tech: string) => {
       return (

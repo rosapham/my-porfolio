@@ -8,6 +8,10 @@
 		"url": "/experience"
 	},
   {
+		"name": "Projects",
+		"url": "/projects"
+	},
+  {
 		"name": "Skills",
 		"url": "/skills"
 	},
@@ -15,9 +19,9 @@
 		"name": "Education",
 		"url": "/education"
 	},
-	{
-		"name": "Projects",
-		"url": "/projects"
+  {
+		"name": "Certificates",
+		"url": "/certificates"
 	},
 	{
 		"name": "Contact",
